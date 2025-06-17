@@ -75,6 +75,43 @@ text-align: center;
 		background-color: #ff0000;
 		color: #ffffff;
 	 }
+nav.menu ul ul.submenu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #cc0000;
+    z-index: 1000;
+    min-width: 200px;
+    padding: 0;
+}
+
+nav.menu li:hover > ul.submenu {
+    display: block;
+}
+
+ 
+nav.menu ul.submenu li {
+    width: 100%;
+    text-align: left;
+}
+
+nav.menu ul.submenu a {
+    padding: 10px 15px;
+    background-color: #ff0000;
+    color: #ffe600;
+}
+
+nav.menu ul.submenu a:hover {
+    background-color: #ff0000;
+    color: white;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
 
 	 
 	
